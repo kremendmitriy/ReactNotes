@@ -1,6 +1,13 @@
-#root {
-   max-width: 1280px;
-   margin: 0 auto;
-   padding: 2rem;
-   text-align: center;
+body {
+  background: -webkit-linear-gradient(
+    45deg,
+    rgb(235, 237, 237),
+    rgb(140, 142, 142)
+  );
+  background: -moz-linear-gradient(
+    45deg,
+    rgb(235, 237, 237),
+    rgb(140, 142, 142)
+  );
+  background: linear-gradient(45deg, rgb(235, 237, 237), rgb(140, 142, 142));
 }
