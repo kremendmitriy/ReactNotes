@@ -6,7 +6,7 @@ import { NoteList } from '@/components/Notes/noteList';
 const HomePage = () => {
   return (
     <div className="flex">
-      <div>
+      <div className="flex flex-col h-full">
         <AddNote />
         <NavigationMenu />
         <LabelMenu />
